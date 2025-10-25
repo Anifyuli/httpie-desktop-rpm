@@ -130,7 +130,6 @@ chmod 755 %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/httpie.png
-%{_datadir}/pixmaps/httpie.png
 %{_libdir}/%{name}/
 
 %post
