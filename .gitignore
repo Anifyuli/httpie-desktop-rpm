@@ -1,0 +1,13 @@
+# RPM build artifacts
+BUILD/
+BUILDROOT/
+RPMS/
+SRPMS/
+SOURCES/*.AppImage
+*.rpm
+*.src.rpm
+
+# Temp files
+*.log
+*~
+.*.swp
