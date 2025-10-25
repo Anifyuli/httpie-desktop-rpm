@@ -13,7 +13,6 @@ Source0:        https://github.com/httpie/desktop/releases/download/v%{version}/
 
 # Build for x86_64
 ExclusiveArch:  x86_64
-
 BuildRequires:  desktop-file-utils
 Requires:       gtk3 alsa-lib nss fuse-libs
 
