@@ -15,7 +15,7 @@ Source1:        https://github.com/httpie/desktop/releases/download/v%{version}/
 # Build for x86_64 and aarch64
 ExclusiveArch:  x86_64 aarch64
 
-BuildRequires:  desktop-file-utils
+BuildRequires:  desktop-file-utils zlib-ng-devel
 Requires:       gtk3 alsa-lib nss fuse-libs
 
 %description
