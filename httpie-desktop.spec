@@ -10,12 +10,11 @@ URL:            https://httpie.io
 
 # Source URLs for different architectures
 Source0:        https://github.com/httpie/desktop/releases/download/v%{version}/HTTPie-%{version}.AppImage
-Source1:        https://github.com/httpie/desktop/releases/download/v%{version}/HTTPie-%{version}-arm64.AppImage
 
-# Build for x86_64 and aarch64
-ExclusiveArch:  x86_64 aarch64
+# Build for x86_64
+ExclusiveArch:  x86_64
 
-BuildRequires:  desktop-file-utils zlib-ng-devel
+BuildRequires:  desktop-file-utils
 Requires:       gtk3 alsa-lib nss fuse-libs
 
 %description
@@ -30,14 +29,8 @@ This package repackages the official AppImage release into an RPM for
 convenient installation on Fedora and RHEL-based systems.
 
 %prep
-# Select correct AppImage based on architecture
-%ifarch x86_64
+# Copy AppImage & add execute permission 
 cp %{SOURCE0} HTTPie.AppImage
-%endif
-%ifarch aarch64
-cp %{SOURCE1} HTTPie.AppImage
-%endif
-
 chmod +x HTTPie.AppImage
 
 # Extract AppImage contents
