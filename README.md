@@ -1,5 +1,7 @@
 # HTTPie Desktop for Fedora/RHEL
 
+[![⚡️ Powered By: Copr](https://img.shields.io/badge/⚡️_Powered_by-COPR-blue?style=flat-square)](https://copr.fedorainfracloud.org/)
+![📦 Architecture: x86_64](https://img.shields.io/badge/📦_Architecture-x86__64-blue?style=flat-square)
 [![Copr build status](https://copr.fedorainfracloud.org/coprs/anifyuliansyah/httpie-desktop/package/httpie-desktop/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/anifyuliansyah/httpie-desktop/package/httpie-desktop/)
 
 Unofficial RPM packaging for [HTTPie Desktop](https://httpie.io/desktop) - a modern, user-friendly HTTP client with a beautiful interface for testing and debugging APIs.
