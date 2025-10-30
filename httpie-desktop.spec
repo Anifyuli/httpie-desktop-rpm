@@ -14,7 +14,7 @@ Source1:        https://github.com/httpie/desktop/releases/download/v%{version}/
 
 # Build architecture & deps detail
 ExclusiveArch:  x86_64 aarch64
-BuildRequires:  desktop-file-utils squashfs-tools zlib-ng zlib-ng-compat zlib-devel
+BuildRequires:  desktop-file-utils squashfs-tools zlib-ng zlib-devel
 Requires:       gtk3 alsa-lib nss fuse-libs
 
 %description
